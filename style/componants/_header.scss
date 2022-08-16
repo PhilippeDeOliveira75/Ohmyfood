@@ -1,0 +1,29 @@
+.shadow{
+    box-shadow: 0 0 5px #696969;
+    position: relative;
+}
+
+.row-header{
+    @include flex-center;
+    padding: 22px 0px 12px 0px;
+    position: relative;
+
+    .logo-header{
+        width: 45%;
+        height :auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .row-header{
+        
+        .logo-header{
+            max-width: 460px;
+            height: auto;
+        }
+    }
+
+}
+    
+

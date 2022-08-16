@@ -1,0 +1,94 @@
+@import "./homepage";
+@import "./load";
+
+.w-resto{
+    position: relative;
+    background-color: #f5f5f5;
+
+    .img-menu{
+        width: 100%;
+        display: block;
+    }
+
+    .row-menu{
+        width: 100%;
+        background-color: #f5f5f5;
+        padding: 30px 12px 44px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 40px 40px 0px 0px;
+        z-index: 5;
+        transform: translateY(-40px);
+    
+        .w-menu-title{
+            padding-right: 15px;
+            padding-left: 10px;
+            width: 100%;
+            @include flex-between;
+        }
+    }
+
+    .w-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 12px;
+        margin-bottom: 34px;
+        width: 100%;
+        
+        .row-card-menu{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            margin-top: 16px;
+            overflow: hidden;
+     
+            .border-bot{
+                margin-left: 8px;
+                border-bottom: 3px solid #99E2D0;
+                width: 40px;
+            }
+
+            .w-card-menu{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 14px;
+                gap: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .w-resto{
+        @include flex-center-column;
+        width: 100%;
+
+        .row-img{
+            width: 100%;
+
+            .img-menu{
+                object-fit: cover;
+                max-height: 420px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .row-resto{
+
+        .row-menu{
+            box-shadow: none;
+            width: 100%;
+
+            .w-menu{
+                flex-direction: row;
+            }
+        }
+    }
+}

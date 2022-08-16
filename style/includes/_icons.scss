@@ -1,0 +1,68 @@
+.logo-utensils{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.logo-hands{
+    font-size: 11px;
+    color: #fff;
+}
+
+.heart-restaurant{
+    font-size: 23px;
+    color: #000;
+    z-index: 100;
+
+    &--index{
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
+    
+    &--pages{
+        position: absolute;
+        right: 36px;
+        top: 36px;
+    }
+    }
+}    
+
+.heart-full{
+    opacity: 0;
+    font-size: 23px;
+    transition: all 0.5s;
+    z-index: 200;
+    color: transparent;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+
+    &--index{
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
+    }
+
+    &--pages{
+        position: absolute;
+        right: 27px;
+        top: 39px;
+    }
+    
+
+    &:hover{
+        opacity: 1;
+        transform: scale(1.1);    
+    }
+
+}
+
+.icon-check{
+    font-size: 16px;
+    color: #99e2d0;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px 4px;
+}
+
+.fa-black{
+    color: #000;
+}

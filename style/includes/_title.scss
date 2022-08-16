@@ -1,0 +1,48 @@
+.title{
+    &--lvl1{
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        
+    }
+    &--lvl2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 800;  
+    }
+
+    &--resto{
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #000000;
+    }
+
+    &--menu{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+     
+    &--footer{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Shrikhand', 'sans-serif';
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .title{
+        &--lvl2{
+            font-size: 28px;
+        }
+        
+        &--footer{
+            font-size: 22px;
+        }
+        
+    }
+}

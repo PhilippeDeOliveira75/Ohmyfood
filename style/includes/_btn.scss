@@ -1,0 +1,41 @@
+.btn{
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    color: #fff;
+    margin-top: 14px;
+    box-shadow: 2px 2px 3px #646464;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &--command{
+        padding: 15px 50px;
+    }
+
+    &:hover{
+        background: linear-gradient(#fc8bdc, #9c67dd);
+        box-shadow: 4px 4px 5px #535353;;
+        transform: scale(1.05);
+    }
+}
+
+.btn-back{
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    left: 20px;
+    background-color: #fff;
+    display: flex;
+    top: 40%;
+    cursor: pointer;
+}
+
+.link-restaurant{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}

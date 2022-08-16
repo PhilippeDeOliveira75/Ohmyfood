@@ -1,0 +1,22 @@
+.row-footer{
+    padding: 27px 0px 15px 23px;
+    
+    .list-footer{
+        list-style: none;
+        line-height: 27px;
+        margin-top: 18px;
+
+        .logo-list-pos{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .row-footer{
+
+    }
+}

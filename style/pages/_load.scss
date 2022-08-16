@@ -1,0 +1,45 @@
+.w-loading{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #9356DC;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    animation : disappear 4s forwards;
+    
+
+    .loader{
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+
+        div{
+            display: inline-block;
+            position: absolute;
+            left: 8px;
+            width: 16px;
+            background: #fff;
+            animation: loader 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+
+            &:nth-child(1) {
+                background-color: #FF79DA;
+                left: 8px;
+                animation-delay: -0.24s;
+              }
+            &:nth-child(2) {
+                left: 32px;
+                animation-delay: -0.12s;
+              }
+            &:nth-child(3) {
+                background-color: #99E2D0;
+                left: 56px;
+                animation-delay: 0s;
+              }
+        }
+          
+    }
+
+}
