@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilippeDeOliveira75/Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilippeDeOliveira75/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/PhilippeDeOliveira75/Ohmyfood#readme",
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
+}
