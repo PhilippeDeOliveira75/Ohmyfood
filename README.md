@@ -29,7 +29,7 @@ CSS / SCSS
 
 4 dossiers
 
- Componants = composants d'une page
+Componants = composants d'une page
 
   cards = toutes les cartes
   footer = bas de page
